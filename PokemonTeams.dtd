@@ -1,0 +1,30 @@
+<!ELEMENT pokemon_teams (team+)>
+<!ELEMENT team (t:name,format, pokemon+)>
+<!ATTLIST team xmlns:t CDATA #REQUIRED>
+<!ELEMENT t:name (#PCDATA)>
+<!ELEMENT format (#PCDATA)>
+<!ELEMENT pokemon (p:name, type, teratype?,level,gender?,shiny,item,ability,hidden_ability?,stats+,moves)>
+<!ATTLIST pokemon xmlns:p CDATA #REQUIRED>
+<!ELEMENT p:name (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT teratype (#PCDATA)>
+<!ELEMENT level (#PCDATA)>
+<!ELEMENT stats (hp,atk,def,spa,spd,spe)>
+<!ELEMENT hp (#PCDATA)>
+<!ELEMENT atk (#PCDATA)>
+<!ELEMENT def (#PCDATA)>
+<!ELEMENT spa (#PCDATA)>
+<!ELEMENT spd (#PCDATA)>
+<!ELEMENT spe (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT shiny (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT ability (#PCDATA)>
+<!ELEMENT hidden_ability (#PCDATA)>
+<!ELEMENT moves (move+)>
+<!ELEMENT move (m:name,mtype,category,description)>
+<!ATTLIST move xmlns:m CDATA #REQUIRED>
+<!ELEMENT m:name (#PCDATA)>
+<!ELEMENT mtype (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

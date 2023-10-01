@@ -1,0 +1,803 @@
+<!DOCTYPE pokemon_teams SYSTEM "PokemonTeams.dtd">
+
+<pokemon_teams>
+    <team xmlns:t="https://trabajogrupalvictorymarcos.es/team">
+        <t:name>Dondozo + Ursaluna Bloodmoon</t:name>
+        <format>VGC 2023 Regulation E</format>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Dondozo</p:name>
+            <type>Water</type>
+            <teratype>Flying</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Air Balloon</item>
+            <ability>Oblivius</ability>
+            <hidden_ability>Water Veil</hidden_ability>
+            <stats>
+                <hp>256</hp>
+                <atk>136</atk>
+                <def>136</def>
+                <spa>76</spa>
+                <spd>114</spd>
+                <spe>56</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Wave Crash</m:name>
+                    <mtype>Water</mtype>
+                    <category>Physical</category>
+                    <description>Tiene un 33% de retroceso.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Order Up</m:name>
+                    <mtype>Dragon</mtype>
+                    <category>Physical</category>
+                    <description>Rizado|Caído|Elástico comido: +1 Atk|Def|Spe</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Heavy Slam</m:name>
+                    <mtype>Steel</mtype>
+                    <category>Physical</category>
+                    <description>Más potencia cuanto más pesado sea el usuario que el objetivo</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Ursaluna BloodMoon</p:name>
+            <type>Ground-Normal</type>
+            <teratype>Ground</teratype>
+            <level>50</level>
+            <gender>Male</gender>
+            <shiny>No</shiny>
+            <item>Sitrus Berry</item>
+            <ability>Minds Eye</ability>
+            <stats>
+                <hp>219</hp>
+                <atk>67</atk>
+                <def>141</def>
+                <spa>174</spa>
+                <spd>114</spd>
+                <spe>73</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Blood Moon</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Special</category>
+                    <description>No se puede utilizar dos veces seguidas.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Hyper Voice</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Special</category>
+                    <description>Ningún efecto adicional. Golpea a los enemigos adyacentes.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Earth Power</m:name>
+                    <mtype>Ground</mtype>
+                    <category>Special</category>
+                    <description>10% de probabilidad de reducir el Sp del objetivo. Def por 1.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Cresselia</p:name>
+            <type>Physic</type>
+            <teratype>Physic</teratype>
+            <level>50</level>
+            <gender>Female</gender>
+            <shiny>No</shiny>
+            <item>Safety Goggles</item>
+            <ability>Levitate</ability>
+            <stats>
+                <hp>227</hp>
+                <atk>67</atk>
+                <def>152</def>
+                <spa>95</spa>
+                <spd>166</spd>
+                <spe>105</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Trick Room</m:name>
+                    <mtype>Physic</mtype>
+                    <category>Status</category>
+                    <description>Va último. Durante 5 turnos, el orden de los turnos se invierte.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Lunar Blessing</m:name>
+                    <mtype>Physic</mtype>
+                    <category>Status</category>
+                    <description>Usuario y aliados: curado 1/4 de HP máximo, estado curado.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Ally Switch</m:name>
+                    <mtype>Physic</mtype>
+                    <category>Status</category>
+                    <description>Usuario y aliado intercambian posiciones; usarlo nuevamente puede fallar.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Moonblast</m:name>
+                    <mtype>Fairy</mtype>
+                    <category>Special</category>
+                    <description>30% de probabilidad de reducir el Sp del objetivo. Atk por 1.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Chi-Yu</p:name>
+            <type>Fire-Dark</type>
+            <teratype>Ghost</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Life Orb</item>
+            <ability>Beads of Ruin</ability>
+            <stats>
+                <hp>159</hp>
+                <atk>76</atk>
+                <def>101</def>
+                <spa>172</spa>
+                <spd>144</spd>
+                <spe>150</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Heat Wave</m:name>
+                    <mtype>Fire</mtype>
+                    <category>Special</category>
+                    <description>10% de probabilidad de quemar a los enemigos.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Dark Pulse</m:name>
+                    <mtype>Dark</mtype>
+                    <category>Special</category>
+                    <description>20% de posibilidades de hacer que el objetivo se estremezca.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Tera Blast</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Special</category>
+                    <description>Si está terastalizado: Phys. si Atk > SpA, escriba = Tera.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Iron Hands</p:name>
+            <type>Electric-Fighting</type>
+            <teratype>Fighting</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Assault Vest</item>
+            <ability>Quark Drive</ability>
+            <stats>
+                <hp>241</hp>
+                <atk>205</atk>
+                <def>134</def>
+                <spa>63</spa>
+                <spd>108</spd>
+                <spe>71</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Fake Out</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Physical</category>
+                    <description>Golpea primero. Primero salga solamente. 100% de posibilidades de estremecerse.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Heavy Slam</m:name>
+                    <mtype>Steel</mtype>
+                    <category>Physical</category>
+                    <description>Más potencia cuanto más pesado sea el usuario que el objetivo</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Wild Charge</m:name>
+                    <mtype>Electric</mtype>
+                    <category>Physical</category>
+                    <description>Tiene 1/4 de retroceso.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Drain Punch</m:name>
+                    <mtype>Fighting</mtype>
+                    <category>Physical</category>
+                    <description>El usuario recupera el 50% del daño infligido.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Sinistcha-Masterpiece</p:name>
+            <type>Grass-Ghost</type>
+            <teratype>Fairy</teratype>
+            <level>50</level>
+            <shiny>Yes</shiny>
+            <item>Leftovers</item>
+            <ability>Hospitality</ability>
+            <hidden_ability>Heatproof</hidden_ability>
+            <stats>
+                <hp>176</hp>
+                <atk>72</atk>
+                <def>148</def>
+                <spa>166</spa>
+                <spd>102</spd>
+                <spe>92</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Calm mind</m:name>
+                    <mtype>Physich</mtype>
+                    <category>Status</category>
+                    <description>Aumenta el Sp del usuario. Atk y Sp. Def por 1.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Matcha Gotcha</m:name>
+                    <mtype>Grass</mtype>
+                    <category>Special</category>
+                    <description>20% quema. Recupera el 50% del daño infligido. Descongela a los enemigos.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Shadow Ball</m:name>
+                    <mtype>Ghost</mtype>
+                    <category>Special</category>
+                    <description>20% de probabilidad de reducir el Sp del objetivo. Def por 1.</description>
+                </move>
+            </moves>
+        </pokemon>
+    </team>
+    <team xmlns:t="https://trabajogrupalvictorymarcos.es/team">
+        <t:name>Flutter + Iron Bundle</t:name>
+        <format>VGC 2023 Regulation D</format>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Flutter Mane</p:name>
+            <type>Ghost-Fairy</type>
+            <teratype>Fairy</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Booster Energy</item>
+            <ability>Protosynthesis</ability>
+            <stats>
+                <hp>157</hp>
+                <atk>54</atk>
+                <def>87</def>
+                <spa>177</spa>
+                <spd>156</spd>
+                <spe>175</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Dazzling Gleam</m:name>
+                    <mtype>Fairy</mtype>
+                    <category>Special</category>
+                    <description>Ningún efecto adicional. Golpea a los enemigos adyacentes.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Shadow Ball</m:name>
+                    <mtype>Ghost</mtype>
+                    <category>Special</category>
+                    <description>20% de probabilidad de reducir el Sp del objetivo. Def por 1.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Moonblast</m:name>
+                    <mtype>Fairy</mtype>
+                    <category>Special</category>
+                    <description>30% de probabilidad de reducir el Sp del objetivo. Atk por 1.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Iron Bundle</p:name>
+            <type>Ice-Water</type>
+            <teratype>Ghost</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Focus Sash</item>
+            <ability>Quark Drive</ability>
+            <stats>
+                <hp>132</hp>
+                <atk>76</atk>
+                <def>134</def>
+                <spa>176</spa>
+                <spd>80</spd>
+                <spe>206</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Hydro Pump</m:name>
+                    <mtype>Water</mtype>
+                    <category>Special</category>
+                    <description>Ningun efecto adicional.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Freeze-Dry</m:name>
+                    <mtype>Ice</mtype>
+                    <category>Special</category>
+                    <description>10% de probabilidad de congelarse. Súper efectivo en el agua.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Icy Wind</m:name>
+                    <mtype>Ice</mtype>
+                    <category>Special</category>
+                    <description>100% de probabilidad de reducir la velocidad del enemigo en 1.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Dragonite</p:name>
+            <type>Dragon-Flying</type>
+            <teratype>Flying</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Lum Berry</item>
+            <ability>Inner Focus</ability>
+            <hidden_ability>Multiscale</hidden_ability>
+            <stats>
+                <hp>189</hp>
+                <atk>198</atk>
+                <def>116</def>
+                <spa>108</spa>
+                <spd>121</spd>
+                <spe>115</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Tailwind</m:name>
+                    <mtype>Flying</mtype>
+                    <category>Status</category>
+                    <description>Durante 4 turnos, la velocidad de los aliados se duplica.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Tera Blast</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Special</category>
+                    <description>Si está terastalizado: Phys. si Atk > SpA, escriba = Tera.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Ice Spinner</m:name>
+                    <mtype>Ice</mtype>
+                    <category>Physical</category>
+                    <description>Acaba con los efectos del terreno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Extreme Speed</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Physical</category>
+                    <description>Casi siempre va primero.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Amoonguss</p:name>
+            <type>Grass-Poison</type>
+            <teratype>Water</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Sitrus Berry</item>
+            <ability>Effect Spore</ability>
+            <hidden_ability>Regenerator</hidden_ability>
+            <stats>
+                <hp>216</hp>
+                <atk>81</atk>
+                <def>118</def>
+                <spa>105</spa>
+                <spd>121</spd>
+                <spe>50</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Pollen Puff</m:name>
+                    <mtype>Bug</mtype>
+                    <category>Special</category>
+                    <description>Si el objetivo es un aliado, cura el 50% de su HP máximo.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Spore</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Status</category>
+                    <description>Hace que el objetivo se duerma.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Rage Powder</m:name>
+                    <mtype>Bug</mtype>
+                    <category>Stus</category>
+                    <description>Los movimientos de los enemigos apuntan al usuario en el turno usado.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Kingambit</p:name>
+            <type>Drak-Steel</type>
+            <teratype>Fire</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Assault Vest</item>
+            <ability>Defiant</ability>
+            <hidden_ability>Pressure</hidden_ability>
+            <stats>
+                <hp>207</hp>
+                <atk>198</atk>
+                <def>141</def>
+                <spa>72</spa>
+                <spd>106</spd>
+                <spe>77</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Assurance</m:name>
+                    <mtype>Dark</mtype>
+                    <category>Physical</category>
+                    <description>El poder se duplica si el objetivo fue dañado este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Iron Head</m:name>
+                    <mtype>Steel</mtype>
+                    <category>Physical</category>
+                    <description>30% de probabilidad de hacer que el objetivo se estremezca.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Sucker Punch</m:name>
+                    <mtype>Dark</mtype>
+                    <category>Physical</category>
+                    <description>Generalmente va primero. Falla si el objetivo no está atacando.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Low Kick</m:name>
+                    <mtype>Fighting</mtype>
+                    <category>Physical</category>
+                    <description>Más potencia cuanto más pesado sea el objetivo.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Arcanine</p:name>
+            <type>Fire</type>
+            <teratype>Grass</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Safety Goggles</item>
+            <ability>Intidate</ability>
+            <hidden_ability>Justified</hidden_ability>
+            <stats>
+                <hp>197</hp>
+                <atk>132</atk>
+                <def>102</def>
+                <spa>108</spa>
+                <spd>102</spd>
+                <spe>157</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Flare Blitz</m:name>
+                    <mtype>Fire</mtype>
+                    <category>Physical</category>
+                    <description>Tiene un 33% de retroceso. 10% de probabilidad de quemarse. Usuario del deshielo.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Will-O-Wisp</m:name>
+                    <mtype>Fire</mtype>
+                    <category>Status</category>
+                    <description>Quema al objetivo.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Morning Sun</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Status</category>
+                    <description>Heals the user by a weather-dependent amount.</description>
+                </move>
+            </moves>
+        </pokemon>
+    </team>
+    <team xmlns:t="https://trabajogrupalvictorymarcos.es/team">
+        <t:name>Maushold + Gholdengo</t:name>
+        <format>VGC 2023 Series 2</format>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Maushold-Four</p:name>
+            <type>Normal</type>
+            <teratype>Ghost</teratype>
+            <level>50</level>
+            <gender>Male</gender>
+            <shiny>no</shiny>
+            <item>Safety Goggles</item>
+            <ability>Friend Guard</ability>
+            <hidden_ability>Technician</hidden_ability>
+            <stats>
+                <hp>74</hp>
+                <atk>75</atk>
+                <def>70</def>
+                <spa>65</spa>
+                <spd>75</spd>
+                <spe>111</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Follow Me</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Status</category>
+                    <description>Hace que el usuario se convierta en el centro de atención</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Super Fang</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Physical</category>
+                    <description>Hace daño igual a la mitad de la vida actual</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Baby-Doll Eyes</m:name>
+                    <mtype>Fairy</mtype>
+                    <category>Status</category>
+                    <description>Baja el ataque espcial en 1</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Iron Hands</p:name>
+            <type>Fight-Electric</type>
+            <teratype>Grass</teratype>
+            <level>50</level>
+            <shiny>no</shiny>
+            <item>Assault Vest</item>
+            <ability>Quark Drive</ability>
+            <stats>
+                <hp>154</hp>
+                <atk>140</atk>
+                <def>108</def>
+                <spa>50</spa>
+                <spd>68</spd>
+                <spe>50</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Fake Out</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Physical</category>
+                    <description>Ataca primero, Solo primer turno, aturde al objetivo</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Drain Punch</m:name>
+                    <mtype>Fight</mtype>
+                    <category>Physical</category>
+                    <description>El usuario recupera el 50% del daño hecho</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Wild Charge</m:name>
+                    <mtype>Electric</mtype>
+                    <category>Physical</category>
+                    <description>Hace daño de vuelta de un 1/4</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Volt Switch</m:name>
+                    <mtype>Electric</mtype>
+                    <category>Physical</category>
+                    <description>El usuario se intercambia despues de hacer daño al objetivo</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Palafin</p:name>
+            <type>Water</type>
+            <teratype>Water</teratype>
+            <level>50</level>
+            <gender>Male</gender>
+            <shiny>no</shiny>
+            <item>Mystic Water</item>
+            <ability>Zero to Hero</ability>
+            <stats>
+                <hp>100</hp>
+                <atk>160</atk>
+                <def>97</def> 
+                <spa>106</spa>
+                <spd>87</spd>
+                <spe>100</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Jet Punch</m:name>
+                    <mtype>Water</mtype>
+                    <category>Physical</category>
+                    <description>Generalmente va primero.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Wave Crash</m:name>
+                    <mtype>Water</mtype>
+                    <category>Physical</category>
+                    <description>Tiene un 33% de retroceso.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Haze</m:name>
+                    <mtype>Ice</mtype>
+                    <category>Status</category>
+                    <description>Elimina todos los cambios de estadísticas.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Arcanine</p:name>
+            <type>Fire</type>
+            <teratype>Grass</teratype>
+            <level>50</level>
+            <gender>Male</gender>
+            <shiny>Yes</shiny>
+            <item>Sitrus Berry</item>
+            <ability>Intimidate</ability>
+            <stats>
+                <hp>189</hp>
+                <atk>145</atk>
+                <def>100</def>
+                <spa>108</spa>
+                <spd>100</spd>
+                <spe>155</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Flare Blitz</m:name>
+                    <mtype>Fire</mtype>
+                    <category>Physical</category>
+                    <description>Tiene un 33% de retroceso. 10% de probabilidad de quemarse. Usuario del deshielo.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Snarl</m:name>
+                    <mtype>Dark</mtype>
+                    <category>Special</category>
+                    <description>100% de probabilidad de derribar a los enemigos Sp. Atk por 1.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Will-O-Wisp</m:name>
+                    <mtype>Fire</mtype>
+                    <category>Status</category>
+                    <description>Quema al objetivo.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Dragonite</p:name>
+            <type>Dragon-Flying</type>
+            <teratype>Flying</teratype>
+            <level>50</level>
+            <shiny>Yes</shiny>
+            <item>Life Orb</item>
+            <ability>Inner Focus</ability>
+            <hidden_ability>Multiscale</hidden_ability>
+            <stats>
+                <hp>169</hp>
+                <atk>204</atk>
+                <def>115</def>
+                <spa>108</spa>
+                <spd>120</spd>
+                <spe>130</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Tera Blast</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Special</category>
+                    <description>Si está terastalizado: Phys. si Atk > SpA, escriba = Tera.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Extreme Speed</m:name>
+                    <mtype>Normal</mtype>
+                    <category>Physical</category>
+                    <description>Casi siempre va primero.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Ice Spinner</m:name>
+                    <mtype>Ice</mtype>
+                    <category>Physical</category>
+                    <description>Acaba con los efectos del terreno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Stomping Tantrum</m:name>
+                    <mtype>Ground</mtype>
+                    <category>Physical</category>
+                    <description>El poder se duplica si el último movimiento del usuario falla.</description>
+                </move>
+            </moves>
+        </pokemon>
+        <pokemon  xmlns:p="https://trabajogrupalvictorymarcos.es/pokemon">
+            <p:name>Gholdengo</p:name>
+            <type>Steel-Ghost</type>
+            <teratype>Water</teratype>
+            <level>50</level>
+            <shiny>No</shiny>
+            <item>Leftovers</item>
+            <ability>Goold as Gold</ability>
+            <stats>
+                <hp>192</hp>
+                <atk>58</atk>
+                <def>117</def>
+                <spa>178</spa>
+                <spd>124</spd>
+                <spe>116</spe>
+            </stats>
+            <moves>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Protect</m:name>
+                    <mtype>Noraml</mtype>
+                    <category>Status</category>
+                    <description>Evita que los movimientos afecten al usuario este turno.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Make It Rain</m:name>
+                    <mtype>Steel</mtype>
+                    <category>Special</category>
+                    <description>Reduce la Sp del usuario. Atk por 1. Golpea al enemigo(s).</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Shadow Ball</m:name>
+                    <mtype>Ghost</mtype>
+                    <category>Special</category>
+                    <description>20% de probabilidad de reducir el Sp del objetivo. Def por 1.</description>
+                </move>
+                <move xmlns:m="https://trabajogrupalvictorymarcos.es/move">
+                    <m:name>Dazzling Gleam</m:name>
+                    <mtype>Fairy</mtype>
+                    <category>Special</category>
+                    <description>Ningún efecto adicional. Golpea a los enemigos adyacentes.</description>
+                </move>
+            </moves>
+        </pokemon>
+    </team>
+</pokemon_teams> 
